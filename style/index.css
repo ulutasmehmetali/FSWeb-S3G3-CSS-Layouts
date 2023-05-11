@@ -1,1 +1,97 @@
-/* CSS stillerinizi buraya girin */
+
+
+.header-container {
+    padding:20px 0 0 30px;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(200, 205, 210);
+}
+
+.header-container #item {
+    height: 30px;
+    width: 70px;
+    border:  1px solid black;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.first-image {
+    margin-top: 30px;
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.body-container {
+   margin-top: 11%;
+   width: 30%;
+   display:inline-block;
+   padding-left:50px;
+   height: 300px;
+}
+
+.body-container #body-box {
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid black;
+    display:inline;
+    margin-left: 39%;
+    padding: 5px;
+}
+
+
+#items {
+    margin: 2% ;
+    display: inline;
+    margin-left: 7.3%;
+}
+
+.footer-container {
+    height: 300px;
+    width: 100%;
+    background-color:  rgb(200, 205, 210);
+}
+
+.footer-container #footer-text {
+    text-align: center;
+    padding-top: 4%;
+}
+
+.footer-container #footer-box {
+    text-align: center;
+    padding: 1%;
+    border: 1px solid black;
+    width: 15%;
+    margin-top: 3%;
+    margin-left: 42%;
+    margin-bottom: 5%;
+
+}
+
+#body-box:hover {
+background-color: rgb(149, 151, 153);
+color: white;
+}
+
+
+#item {
+    padding: 1px;
+}
+
+#item:hover {
+    background-color: rgb(149, 151, 153);
+    color: white;
+    transition-duration: 0.4s;
+    }
+
+
+#footer-link {
+ margin: 10px;
+}
+
+#socialmedia {
+ text-align: center;
+}
